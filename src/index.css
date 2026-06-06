@@ -27,7 +27,9 @@
 
 @import "tailwindcss";
 
-@theme{
-    --font-montserrat : 'Montserrat', sans-serif;
+@theme {
+  --font-Montserrat: "Montserrat", sans-serif;
+  --breakpoint-xs: 320px;
+  --breakpoint-330b: 330px;
+  --breakpoint-360b: 360px;
 }
-
