@@ -5,7 +5,7 @@ import Radio from "../components/Radio";
 
 function Signup() {
   return (
-    <div className="h-screen flex flex-col p-4 w-full">
+    <div className="min-h-[85vh] sm:min-h-[90vh] flex flex-col p-4 w-full h-full">
       <div>
         <div className="flex justify-between items-center">
           <h1 className="text-lg sm:text-xl xl:text-2xl text-black font-bold mt-4">
@@ -20,33 +20,33 @@ function Signup() {
             name="Full name"
             placeholder="Enter full name"
             important={true}
-            className="mb-5"
+            className="mb-2.5"
           />
           <FieldsetInput
             name="Phone number"
             placeholder="9xxxxxxxxxx1"
             type="tel"
             important={true}
-            className="mb-5"
+            className="mb-2.5"
           />
           <FieldsetInput
             name="Email address"
             type="email"
             placeholder="Enter email address"
             important={true}
-            className="mb-5"
+            className="mb-2.5"
           />
           <FieldsetInput
             name="Password"
             type="password"
             placeholder="Enter password"
             important={true}
-            className="mb-5"
+            className="mb-2.5"
           />
           <FieldsetInput
             name="Company name"
             placeholder="Enter company name"
-            className="mb-5"
+            className="mb-2.5"
           />
           <Radio
             boolean={true}

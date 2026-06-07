@@ -12,7 +12,7 @@ function Login() {
   }, [email])
 
   return (
-    <div className="h-screen flex flex-col p-4 w-full">
+    <div className="min-h-[85vh] sm:min-h-[90vh] flex flex-col p-4 w-full">
       <div>
         <div className="flex justify-between items-center">
           <h1 className="text-lg sm:text-xl xl:text-2xl text-black font-bold mt-4">
@@ -33,7 +33,7 @@ function Login() {
             type="email"
             placeholder="Enter email address"
             important={true}
-            className="mb-5"
+            className="mb-2.5"
             onChange={(e) => {
               setEmail(e.target.value)
               let result = e.target.value.replace(/@.*/, '').toLowerCase();
@@ -45,7 +45,7 @@ function Login() {
             type="password"
             placeholder="Enter password"
             important={true}
-            className="mb-5"
+            className="mb-2.5"
           />
           <Link to={`/account/${name}`}>
             <Button

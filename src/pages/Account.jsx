@@ -11,7 +11,7 @@ function Account() {
   }
 
   return (
-    <div className="text-black min-h-screen flex flex-col justify-start">
+    <div className="text-black min-h-[85vh] sm:min-h-[90vh] flex flex-col justify-start">
       <div className="py-4 bg-white flex justify-between items-center">
         <h1 className="text:sm pl-4 sm:text-lg">Account Settings</h1>
         <Link to="/">

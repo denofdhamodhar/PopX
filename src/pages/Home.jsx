@@ -3,7 +3,7 @@ import Button from "../components/Button";
 
 function Home() {
   return (
-    <div className="flex flex-col justify-end h-screen w-full p-4">
+    <div className="flex flex-col justify-end w-full p-4 min-h-[80vh] sm:min-h-[90vh]">/
       <div className="mb-2">
         <h1 className="text-lg sm:text-xl xl:text-2xl text-black font-bold">
           Welcome to PopX
